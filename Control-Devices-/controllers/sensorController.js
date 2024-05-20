@@ -59,7 +59,7 @@ module.exports = {
       }
 
       // Update isActive to true
-      deviceData.isActive = true;
+      // deviceData.isActive = true;
 
       // Update lastActive time of the device
       deviceData.lastActive = new Date();

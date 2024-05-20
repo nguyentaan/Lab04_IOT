@@ -5,7 +5,7 @@ const DeviceSchema = new Schema(
   {
     device_name: String,
     sensor_type: String,
-    isActive: Boolean,
+    // isActive: Boolean,
     lastActive: { type: Date, default: Date.now },
   }
 );
